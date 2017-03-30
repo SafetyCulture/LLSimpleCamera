@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		03144F231E079217009D7582 /* Version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
-		03144F241E07925B009D7582 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		03144F241E07925B009D7582 /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
 		03C680D41E010CD10052400F /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C680D71E010CD10052400F /* LLSimpleCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
 		03C680D81E010CD10052400F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				03C680D81E010CD10052400F /* Info.plist */,
-				03144F241E07925B009D7582 /* module.modulemap */,
+				03144F241E07925B009D7582 /* LLSimpleCamera.modulemap */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 				INFOPLIST_FILE = LLSimpleCamera/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/LLSimpleCamera/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/LLSimpleCamera/LLSimpleCamera.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omerfarukgul.LLSimpleCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -298,7 +298,7 @@
 				INFOPLIST_FILE = LLSimpleCamera/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/LLSimpleCamera/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/LLSimpleCamera/LLSimpleCamera.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omerfarukgul.LLSimpleCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
